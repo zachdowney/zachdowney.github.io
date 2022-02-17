@@ -10,6 +10,11 @@
 
       
     <style>
+        @media screen and (max-width: 1000px) {
+            .image {
+                display: none;
+            }
+        }
         #bgvideo {
             position: fixed;
             right: 0;
@@ -32,6 +37,14 @@
             bottom: 10%;
             right: 10%;
         }
+        .message {
+            position: fixed;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            font-family: Arial;
+            color: white
+        }
     </style>
 </head>
 <body class="main">
@@ -46,7 +59,12 @@
 
     <div class="image">
         <img src="Resume.jpg"/>
+    </div>
 
+    <div class="message">
+        <p>
+            Maximize to view resume 
+         </p>
     </div>
 </body>
 </html>
